@@ -35,7 +35,7 @@ def main() -> None:
                 bad_count += 1
                 print(f"Error: {e}")
 
-    os.makedirs("./output", exist_ok=True)            
+    os.makedirs("./output", exist_ok=True) #relative to starter_code            
     with open("./output/summary.txt", "w", encoding="utf-8") as file:
         file.write(f"rows={len(rows)}\n")
         file.write(f"grand_total={grand_total}\n")
