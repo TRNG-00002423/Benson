@@ -28,7 +28,7 @@ def setup_logging(log_file="test_framework.log", console_level=logging.INFO):
     streamHandler = logging.StreamHandler()
     streamHandler.setLevel(logging.INFO)
     # TODO: Add RotatingFileHandler for file (DEBUG+)
-    rotatingFileHandler = RotatingFileHandler("qa_framework.log")
+    rotatingFileHandler = RotatingFileHandler("qa_framework.log", maxBytes=1024 * 1024, backupCount=3)
     rotatingFileHandler.setLevel(logging.DEBUG)
     # TODO: Set appropriate formatters on each handler
     formatter = logging.Formatter("%(asctime)s | %(levelname)-8s | %(message)s")
