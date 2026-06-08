@@ -1,0 +1,3 @@
+Question: Why is lazy formatting (logger.info("x %s", val)) preferred over f-strings in log calls
+
+Because f-string will build even if the line isn't executed, lazy formatting allow us to avoid unnecessary work
