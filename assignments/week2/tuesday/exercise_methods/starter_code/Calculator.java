@@ -28,6 +28,7 @@ public class Calculator {
         return a * b;
     }
 
+    /** If denominator is 0, then prints message and returns NaN. */
     public static double divide(double a, double b) {
         if(b == 0){
             System.out.println("Cannot divide by zero");
