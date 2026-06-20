@@ -1,0 +1,14 @@
+=== Log Analyzer Report ===
+Generated: 2026-06-20T13:31:52.727841
+
+Total Tests: 6
+    PASS: 3
+    FAIL: 2
+    SKIP: 1
+
+##FAILURES: 
+  [FAIL] CheckoutTest - 340ms | Reason: NullPointerException on line 87
+  [FAIL] ProfileUpdateTest - 210ms | Reason: AssertionError: expected 200 but was 404
+
+##SKIPPED: 
+  [SKIP] PaymentTest - 0ms | Reason: dependency not available
