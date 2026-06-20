@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d %-5level [%logger] %msg%n</pattern>
+        </encoder>
+    </appender>
+    <appender name="FILE" class="ch.qos.logback.core.FileAppender">
+        <file>logs/words.log</file>
+        <append>true</append>
+        <encoder>
+            <pattern>%d %-5level [%logger] %msg%n</pattern>
+        </encoder>
+    </appender>
+    <appender name="FILE2" class="ch.qos.logback.core.FileAppender">
+        <file>logs/tasks.log</file>
+        <append>true</append>
+        <encoder>
+            <pattern>%d %-5level [%logger] %msg%n</pattern>
+        </encoder>
+    </appender>
+    <logger name="pair.a.words" level="DEBUG" additivity="false">
+        <appender-ref ref="STDOUT" />
+        <appender-ref ref="FILE" />
+    </logger>
+    <logger name="pair.b.tasks" level="INFO" additivity="false">
+        <appender-ref ref="STDOUT" />
+        <appender-ref ref="FILE2" />
+    </logger>
+    <root level="DEBUG">
+        <appender-ref ref="STDOUT"/>
+    </root>
+</configuration>

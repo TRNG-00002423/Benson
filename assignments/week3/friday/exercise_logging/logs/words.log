@@ -1,0 +1,10 @@
+2026-06-20 19:25:36,962 DEBUG [pair.a.words] java : 3
+2026-06-20 19:25:36,966 DEBUG [pair.a.words] maps : 2
+2026-06-20 19:25:36,966 DEBUG [pair.a.words] sets : 2
+2026-06-20 19:25:36,966 DEBUG [pair.a.words] and : 2
+2026-06-20 19:25:36,966 DEBUG [pair.a.words] collections : 1
+2026-06-20 19:25:36,966 DEBUG [pair.a.words] queues : 1
+2026-06-20 19:25:36,966 DEBUG [pair.a.words] more : 1
+2026-06-20 19:25:36,966 DEBUG [pair.a.words] lambdas : 1
+2026-06-20 19:25:36,966 INFO  [pair.a.words] print first of vocabulary: and
+2026-06-20 19:25:36,966 INFO  [pair.a.words] print last of vocabulary: sets
