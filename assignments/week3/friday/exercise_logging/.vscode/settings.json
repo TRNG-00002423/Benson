@@ -1,0 +1,7 @@
+{
+    "java.project.sourcePaths": [
+        "starter_code",
+        "java",
+        "src/main/java"
+    ]
+}
